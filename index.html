@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#f3b648" />
+  <title>原野小队：巨兽远征</title>
+  <meta name="description" content="四人小队自动战斗、灵宠养成与巨兽冒险手游" />
+  <link rel="manifest" href="./pages-manifest.webmanifest" />
+  <link rel="stylesheet" href="./pages-game.css" />
+</head>
+<body>
+  <div class="game" id="game">
+    <header class="topbar">
+      <button class="profile" data-action="profile"><span>原</span><div><b id="playerName">荒野队长</b><small id="playerLevel">拾火者 · Lv.1</small></div></button>
+      <div class="brand"><b>原野小队</b><small>巨兽远征</small></div>
+      <span class="save-state">● 本机已保存</span>
+    </header>
+    <section class="resources" aria-label="资源">
+      <div><i>◉</i><span><small>贝币</small><b id="coins">0</b></span></div>
+      <div><i>◆</i><span><small>琥珀</small><b id="amber">0</b></span></div>
+      <div><i>◇</i><span><small>兽骨</small><b id="bones">0</b></span></div>
+      <div><i>⌁</i><span><small>号角</small><b id="horns">0</b></span></div>
+    </section>
+    <main id="view" class="view" aria-live="polite"></main>
+    <nav class="nav" aria-label="主要导航">
+      <button data-tab="home" class="active"><span>⌂</span><small>营地</small></button>
+      <button data-tab="battle"><span>⚔</span><small>战斗</small></button>
+      <button data-tab="team"><span>♟</span><small>小队</small></button>
+      <button data-tab="summon"><span>✦</span><small>召唤</small></button>
+      <button data-tab="bag"><span>▣</span><small>背包</small></button>
+    </nav>
+    <div class="toast" id="toast" role="status"></div>
+  </div>
+  <script type="module" src="./pages-game.js"></script>
+</body>
+</html>
