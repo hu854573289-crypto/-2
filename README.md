@@ -2,7 +2,7 @@
 
 一款明亮原始幻想风格的四人小队放置冒险 PWA 手游。支持自动战斗、巨兽机制、技能顺序、灵宠养成、离线挂机、排行榜、账号云存档和历史恢复点。
 
-在线游玩：[原野小队：巨兽远征](https://cloudrealm-idle-rpg.hu854573289.chatgpt.site)
+GitHub Pages 在线游玩：[原野小队：巨兽远征](https://hu854573289-crypto.github.io/-2/)
 
 ## 已实现玩法
 
