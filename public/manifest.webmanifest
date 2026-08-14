@@ -1,0 +1,14 @@
+{
+  "name": "原野小队：巨兽远征",
+  "short_name": "原野小队",
+  "description": "四人小队自动战斗、灵宠养成、巨兽冒险与跨设备云存档",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6eed8",
+  "theme_color": "#f3c35f",
+  "lang": "zh-CN",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
